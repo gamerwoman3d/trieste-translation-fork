@@ -1,3 +1,7 @@
+## This is Mythic Mack's translation of the original game by Sami Lafrance and others.  I take credit only for the translation, not the game build itself.
+~Mythic Mack
+
+---original readme---
 # Trieste
 
 ## Explanation of the project
