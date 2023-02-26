@@ -41,6 +41,6 @@ const hideText = () => {
   }, 500)
 }
 
-const changeInfoText = (text = 'Naviguez d\'oeuvre en oeuvre avec <b>les flèches</b>.<br/>Et observez bien les tableaux, certaines zones proposent <b>une intéraction</b>.') => {
+const changeInfoText = (text = 'Navigate from scene to scene with <b>the arrows</b>.<br/>And take a good look at the paintings, some areas offer <b>an interaction</b>.') => {
   tool_text = text
 }

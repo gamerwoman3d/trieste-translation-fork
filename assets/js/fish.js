@@ -12,7 +12,7 @@ $('#fish_answer').on('input', () => {
     sound_fish.stop()
   }, 150);
   
-  if(answer == 'emeraude') {
+  if(answer == 'emerald') {
     $('#fish_answer').prop('disabled', true)
     $('.right_answer').fadeIn()
     $('#homme_poisson').hide()

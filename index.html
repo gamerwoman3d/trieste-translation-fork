@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Trieste | Une expérience intéractive</title>
+    <title>Trieste | An interactive experience</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="assets/images/dialogs/crabe.png" />
@@ -29,7 +29,7 @@
     <section class="loader">
       <div class="loader_container">
         <h1>Trieste</h1>
-        <p class="loader_text">Chargement du site...</p>
+        <p class="loader_text">Loading site...</p>
         <div class="sk-cube-grid">
           <div class="sk-cube sk-cube1"></div>
           <div class="sk-cube sk-cube2"></div>
@@ -41,10 +41,10 @@
           <div class="sk-cube sk-cube8"></div>
           <div class="sk-cube sk-cube9"></div>
         </div>
-        <div class="start" onclick="playVideo('intro.mp4')">Lancer</div>
+        <div class="start" onclick="playVideo('intro.mp4')">Enter</div>
         <div class="audio">
           <i class="fas fa-headphones-alt"></i>
-          <p>Cette expérience contient une <b>ambiance musicale</b>, veuillez activer le son.</p>
+          <p>This experience contains a <b>musical atmosphere</b>, please turn on the sound.</p>
         </div>
       </div>
     </section>
@@ -53,28 +53,28 @@
     <section class="menu" style="display: none;">
       <div class="menu_container">
         <h1>Trieste</h1>
-        <p>Une histoire interactive <b>point and click</b> en ligne qui vous propose une expérience culturelle et artistique autour d’un univers sombre et immersif dans les fonds marins.</p>
-        <p>Trouver <b>des indices</b> dans les tableaux pour aider <i>César</i>, un vieux crabe issu d’une nature morte, à retrouver son habitat naturel.</p>
-        <div class="start" onclick="playVideo('start_play.mp4')">Commencer</div>
+        <p>An interactive <b>point and click</b> story online which offers you a cultural and artistic experience around a dark and immersive universe across the sea.</p>
+        <p>Find <b>clues</b> among the paintings to help <i>César</i>, an old crab from a still life, to find its natural habitat.</p>
+        <div class="start" onclick="playVideo('start_play.mp4')">Begin</div>
       </div>
     </section>
 
     <!-- Les vidéos -->
     <section class="video_container">
-      <img class="crose" id="close_video" src="assets/images/light_croix.png" alt="Croix pour fermer la vidéo">
+      <img class="crose" id="close_video" src="assets/images/light_croix.png" alt="Press this X to close the video">
       <div class="video_container_player">
         <video id="video" width="100%" height="100%" playsinline>
-          Désolé, votre navigateur ne prend pas en charge les vidéos intégrées.
+          Sorry, your browser does not support embedded videos.
         </video>
       </div>
     </section>
 
     <!-- Les objets -->
     <div class="object_container">
-      <img class="fish" src="assets/images/objects/fish.png" alt="Objet poisson récupéré">
-      <img class="coin1" src="assets/images/objects/piece_1.png" alt="Objet 1 pièce récupéré">
-      <img class="coin2" src="assets/images/objects/piece_2.png" alt="Objet 2 pièce récupéré">
-      <img class="coin3" src="assets/images/objects/piece_3.png" alt="Objet 3 pièce récupéré">
+      <img class="fish" src="assets/images/objects/fish.png" alt="Fish Object Obtained">
+      <img class="coin1" src="assets/images/objects/piece_1.png" alt="Gold Piece 1 Obtained">
+      <img class="coin2" src="assets/images/objects/piece_2.png" alt="Gold Piece 2 Obtained">
+      <img class="coin3" src="assets/images/objects/piece_3.png" alt="Gold Piece 3 Obtained">
     </div>
 
     <!-- Container avec la fresque -->
@@ -111,12 +111,12 @@
     </section>
 
     <!-- Les flèches -->
-    <img class="arrow left" id="previous" src="assets/images/fleche.svg" alt="Flèche de direction gauche">
-    <img class="arrow" id="next" src="assets/images/fleche.svg" alt="Flèche de direction droite">
+    <img class="arrow left" id="previous" src="assets/images/fleche.svg" alt="Left direction arrow">
+    <img class="arrow" id="next" src="assets/images/fleche.svg" alt="Right direction arrow">
 
     <!-- Les infos -->
     <div class="info_container">
-      <img class="info_icon" id="info" src="assets/images/info.svg" alt="Bouton information pour de l'aide">
+      <img class="info_icon" id="info" src="assets/images/info.svg" alt="Info button for help">
       <div class="info_text_container">
         <p class="info_text" id="tool_text"></p>
       </div>
@@ -130,34 +130,34 @@
           <img id="character" src="">
         </div>
         <p class="text" id="app"></p>
-        <img class="background_text" src="assets/images/image_text.png" alt="Background du texte">
+        <img class="background_text" src="assets/images/image_text.png" alt="Background text decorative border">
       </div>
     </div>
 
     <!-- Question pour avoir un poisson -->
     <div class="fish_question_container">
-      <img class="crose" id="close_fish" src="assets/images/light_croix.png" alt="Croix pour fermer le jeu">
+      <img class="crose" id="close_fish" src="assets/images/light_croix.png" alt="Press this X to close the mini game">
       <div class="fish_question">
         <div class="text">
-          <h2>Un poisson contre une question</h2>
-          <p>La mer a parfois sa couleur,<br/>
-            Et sa côte accueille les promeneurs.<br/>
-            Qu’elle orne le doigt ou le cou,<br/>
-            Pour une femme elle est bijou.<br/>
+          <h2>A fish for a question</h2>
+          <p>The sea sometimes has its color,<br/>
+            And its coast welcomes walkers.<br/>
+            Whether it adorns the finger or the neck,<br/>
+            For a woman she is a jewel.<br/>
           </p>
-          <h4 id="question">Qui est-elle ?</h4>
+          <h4 id="question">Who is she ?</h4>
         </div>
         <div class="input">
-          <input type="text" id="fish_answer" placeholder="Votre réponse...">
-          <p class="right_answer">Bravo ! Vous gagnez un poisson.</p>
+          <input type="text" id="fish_answer" placeholder="Your answer...">
+          <p class="right_answer">Cheer ! You win a fish.</p>
         </div>
       </div>
     </div>
 
     <!-- Puzzle du moteur -->
     <div class="puzzle_container">
-      <img class="crose" id="close_puzzle" src="assets/images/light_croix.png" alt="Croix pour fermer le jeu">
-      <h2>Reconstruis le moteur</h2>
+      <img class="crose" id="close_puzzle" src="assets/images/light_croix.png" alt="Press this X to close the mini game">
+      <h2>Rebuild the engine</h2>
       <div class="game_container">
         <div class="puzzle piece1"></div>
         <div class="puzzle piece2"></div>
@@ -173,13 +173,13 @@
 
     <!-- Enigme avec le code -->
     <div class="code_container">
-      <img class="crose" id="close_code" src="assets/images/light_croix.png" alt="Croix pour fermer le jeu">
-      <h2>Trouve la combinaison</h2>
+      <img class="crose" id="close_code" src="assets/images/light_croix.png" alt="Press this X to close the mini game">
+      <h2>Find the combination</h2>
       <div class="keypad_wrapper">
         <div class="screen"></div>
         <div class="flasher"></div>
-        <div class="error notification">Erreur</div>
-        <div class="success notification">Code bon</div>
+        <div class="error notification">Wrong Code.</div>
+        <div class="success notification">Code Correct</div>
         
         <div class="key">1</div>
         <div class="key">2</div>
@@ -197,7 +197,7 @@
     <!-- Boutons de l'écran de fin -->
     <div class="end_container">
       <div class="end_buttons_container">
-        <div class="start_again" onclick="restart()">Recommencer</div>
+        <div class="start_again" onclick="restart()">Restart</div>
       </div>
     </div>
 
