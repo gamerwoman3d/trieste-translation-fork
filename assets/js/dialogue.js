@@ -5,11 +5,11 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Dégage de là, laisse-moi tranquille !'
+        text: 'Get out of here, leave me alone!'
       },
       {
         user_talking: true,
-        text: 'Faquin.'
+        text: 'Rude.'
       }
     ]
   },
@@ -18,15 +18,15 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Au revoir tout le monde, au revoir !! Je quitte à mon plus grand regret Bordeaux pour l’Angleterre. Mais joins-toi à moi petit crabe, l’embarquement coûte trois pièces d’or !'
+        text: 'Goodbye everyone, goodbye!! To my greatest regret, I must leave Bordeaux for England. But join me little crab, boarding costs three gold coins!'
       },
       {
         user_talking: true,
-        text: 'Je n\'ai pas un sou, il n\'y a pas d\'autres solutions que des pièces d\'or ?'
+        text: 'I do not have a penny, there is no other solution than gold coins?'
       },
       {
         user_talking: false,
-        text: 'Non, désolée, je ne peux pas t’avancer et seul l’or a une valeur dans ce monde.'
+        text: 'No, sorry. It seems only gold has value in this world.'
       }
     ]
   },
@@ -35,11 +35,11 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Tu as de la monnaie, vieux crabe ?'
+        text: 'Do you have any change, old crab?'
       },
       {
         user_talking: true,
-        text: 'J\'ai juste le compte, faites-moi embarquer !'
+        text: 'I just got the money, get me on board!'
       }
     ]
   },
@@ -48,15 +48,15 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'J\'ai moi aussi l\'acompte, je veux prendre le large.'
+        text: 'I also have the deposit money, I want to take off.'
       },
       {
         user_talking: false,
-        text: 'Je ne compte que deux pièces d\'or.'
+        text: 'I only count two gold coins.'
       },
       {
         user_talking: true,
-        text: 'Diantre !!! Au voleur, au voleur ! Quel est le truand qui a encore frappé !'
+        text: 'Damn!!! Thief, thief! Who is the crook who has struck again!'
       }
     ]
   },
@@ -65,7 +65,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Je donnerais tout pour manger du bon poisson...'
+        text: 'I would give anything to eat good fish...'
       }
     ]
   },
@@ -74,19 +74,19 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Je donnerais tout pour manger du bon poisson...'
+        text: 'I would give anything to eat good fish...'
       },
       {
         user_talking: true,
-        text: 'Ne vous inquiétez pas monsieur, j\'ai tout ce qu\'il vous faut sur moi.'
+        text: 'Worry no longer sir, I have everything you need right here.'
       },
       {
         user_talking: false,
-        text: 'Mais que c\'est aimable. Prennez donc une pièce d\'or !'
+        text: 'But how kind. Take a gold coin! If you ever need more, search the beach for the code. It may be right before your eyes.'
       },
       {
         user_talking: true,
-        text: 'Merci, grâce à vous je vais bientôt pouvoir prendre le large.'
+        text: 'Thank you, thanks to you I will soon be able to take off.'
       }
     ]
   },
@@ -95,19 +95,19 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Le tram est bloqué, aidez-moi à le réparer !'
+        text: 'The tram is stuck, help me fix it!'
       },
       {
         user_talking: true,
-        text: 'Je peux te donner un coup de pince ! Seulement, tout travail mérite salaire.'
+        text: 'I can fix these gears! Only, my work deserves monetary reward.'
       },
       {
         user_talking: false,
-        text: 'Une pièce d\'or ça te va ?'
+        text: 'Does a gold coin suit you?'
       },
       {
         user_talking: true,
-        text: 'Très bien ! Fais-moi voir ça.'
+        text: 'Very well ! Show me the problem.'
       }
     ]
   },
@@ -116,15 +116,15 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Un poisson contre une question !'
+        text: 'A fish for a question!'
       },
       {
         user_talking: true,
-        text: 'Très bien mon cher.'
+        text: 'Very well my dear.'
       },
       {
         user_talking: false,
-        text: 'La mer a parfois sa couleur,<br/>Et sa côte accueille les promeneurs.<br/>Qu\'elle orne le doigt ou le cou,<br/>Pour une femme elle est bijou.<br/><br/><b>Qui est-elle ?</b>'
+        text: 'The sea sometimes has its color,<br/>And its coast welcomes walkers.<br/>Whether it adorns the finger or the neck,<br/>For a woman she is a jewel.<br/><br/><b>Who is she ?</b>'
       }
     ]
   },
@@ -133,7 +133,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Laissez passer, écartez-vous !!'
+        text: 'Let it go, step aside!!'
       }
     ]
   },
@@ -142,7 +142,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Rrrrrrr... OUAAF !'
+        text: 'Rrrrrrr... WOOF !'
       },
       {
         user_talking: true,
@@ -155,7 +155,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'TIREZ !!!!!'
+        text: 'PULL !!!!!'
       }
     ]
   },
@@ -164,15 +164,15 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Avance sale canasson !!'
+        text: 'Move, you dirty nag !!'
       },
       {
         user_talking: true,
-        text: 'Ce n\'est pas une façon de parler à un vieux crabe !'
+        text: 'That\'s no way to talk to an old crab!'
       },
       {
         user_talking: true,
-        text: 'Ah, vous parlez peut-être de votre cheval...'
+        text: 'Ah, you may be talking about your horse...'
       }
     ]
   },
@@ -181,7 +181,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Que c\'est épuisant, vivement ce soir.'
+        text: 'How exhausting. No wonder thieves avoid work for a living!'
       }
     ]
   },
@@ -190,7 +190,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Que fait un vieux crabe ici ?'
+        text: 'What is an old crab doing here?'
       },
       {
         user_talking: true,
@@ -203,7 +203,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Allez, plus que 100 mètres et j\'y suis.'
+        text: 'Come on, more than 100 meters and I\'m there.'
       }
     ]
   },
@@ -212,7 +212,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Je goûterais bien un peu de ce vin.'
+        text: 'I would like to taste a little of this wine.'
       }
     ]
   },
@@ -221,7 +221,7 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Madame, est-il possible de vous demander votre main, vous êtes tellement gracieuse. Voulez-vous partir avec moi ?'
+        text: 'Madam, is it possible to ask for your hand, you are so gracious. Do you want to go with me?'
       }
     ]
   },
@@ -230,19 +230,19 @@ const dialogs = {
     text: [
       {
         user_talking: false,
-        text: 'Bon voyage madame ! Faites attention à vous durant cette longue traversée !'
+        text: 'Have a good trip ma\'am! Take care of yourself during this long crossing!'
       },
       {
         user_talking: true,
-        text: 'Excusez-moi madame, connaissez-vous un moyen d\'embarquer sans pièce d\'or ?'
+        text: 'Excuse me ma\'am, do you know a way to board without a gold coin?'
       },
       {
         user_talking: false,
-        text: 'C\'est impossible vieux crabe. Mais, les hommes seront bienveillants à ton égard si tu leur donnes un coup de pince.'
+        text: 'It\'s impossible old crab. But, men will be kind to you if you give them a nudge.'
       },
       {
         user_talking: true,
-        text: 'Merci bien. Je vais voir ce que je peux faire.'
+        text: 'Thanks very much. I shall see what I can do.'
       }
     ]
   },
@@ -251,11 +251,11 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'Larguez les amarres !!!'
+        text: 'Cast off !!!'
       },
       {
         user_talking: true,
-        text: 'Quelle aubaine ! Je vais enfin pouvoir m\'affranchir de mon destin en retrouvant ma liberté, mais pour l\'instant je me dois d\'être discret pour ne pas finir dans l\'assiette des marins.'
+        text: 'What a bargain! I will finally be able to free myself from my destiny by regaining my freedom, but for the moment I have to be discreet so as not to end up on the plate of the sailors.'
       }
     ]
   },
@@ -264,11 +264,11 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'Satané soleil il me brûle les yeux, vivement que j\'me sorte de là et que je retrouve ma petite bicoque sous la mer.'
+        text: 'The Damned sun burns my eyes. I cannot wait to get out of there and find my little shack under the sea.'
       },
       {
         user_talking: true,
-        text: 'Par contre, ça commence à me faire du mouron, j\'ai entendu quelques messes basses entre certains membres de l\'équipage et il semblerait qu\'une mutinerie se prépare...'
+        text: 'On the other hand, this is starting to make me sick. I heard some low mutterings between some members of the crew and it seems that a mutiny is preparing...'
       }
     ]
   },
@@ -277,15 +277,15 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'C\'était inévitable, cette mutinerie a surpris tout l\'équipage. Quelle bande de gougnafiers !'
+        text: 'It was inevitable, this mutiny surprised the whole crew. What a bunch of jerks!'
       },
       {
         user_talking: true,
-        text: 'Le navire a subi de nombreux dégâts...'
+        text: 'The ship suffered a lot of damage...'
       },
       {
         user_talking: true,
-        text: 'Sapristi le mât est en feu, JE SUIS CERNÉ !!! Il faut vite que je me sorte de là !'
+        text: 'Holy shit the mast is on fire, I AM SURROUNDED!!! I need to get out of here fast!'
       }
     ]
   },
@@ -294,15 +294,15 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'Oufff ! J\'ai réussi à me mettre à l\'abri dans une chaloupe à l\'arrière du bateau. Ce coup de tabac est en train d\'éradiquer tout l\'équipage !'
+        text: 'Phew! I managed to take shelter in a rowboat at the back of the boat. This dark smoke is in the process of eradicating the whole crew!'
       },
       {
         user_talking: true,
-        text: 'Le gouvernail et le mat se sont brisés. Il faut vite que je sorte de cette galère !!'
+        text: 'The rudder and mast broke. I need to get out of this mess soon!!'
       },
       {
         user_talking: true,
-        text: 'Oh, un satané goéland ! Il peut voler quelle chance. Il faut que je trouve une échappatoire...'
+        text: 'Oh, a damn seagull! He looks hungry for crab. I have to find an escape...'
       }
     ]
   },
@@ -311,15 +311,15 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'Arghhh... le déluge est terminé ? Mais... où suis-je ? Serait-ce ?? Du sable ??? Mais ce n\'est pas possible ?'
+        text: 'Arghhh... the flood is over? But... where am I? Would it be?? Sand??? But that is not possible ?'
       },
       {
         user_talking: true,
-        text: 'J\'ai dû perdre la boule en mer lorsque j\'ai essayé de m\'évader... J\'aurais donc fini sur la côte à cause du courant ?'
+        text: 'I must have lost my mind at sea when I tried to escape... So I would have ended up on the coast because of the current?'
       },
       {
         user_talking: true,
-        text: 'Diantre ! Il y a des pêcheurs partout, je me dois d\'être furtif...'
+        text: 'Damn! There are fishermen everywhere, I have to be stealthy...'
       }
     ]
   },
@@ -328,15 +328,15 @@ const dialogs = {
     text: [
       {
         user_talking: true,
-        text: 'Non ! Ne me pêchez pas ! Je ne suis pas comestible, je suis une vieille branche et ma carapace est dure comme pierre !'
+        text: 'No ! Don\'t pick me! I am inedible! I\'m just an old branch and my shell is rock hard!'
       },
       {
         user_talking: true,
-        text: 'Vous ne m\'aurez pas comme ça, croyez-le ou non !'
+        text: 'You won\'t get me like this, believe it or not!'
       },
       {
         user_talking: true,
-        text: 'Jeune faquin !!'
+        text: 'Rude!!'
       }
     ]
   }
